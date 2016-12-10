@@ -1,0 +1,51 @@
+{:uriI"šfile://app/assets/javascripts/flickity-master/sandbox/tap-listener.html?type=text/html&id=9523da35b23606a9c7b192c72d9de463a267081a98f5809acb08cf0505d7e881:ET:load_pathI"app/assets/javascripts;T:filenameI"Eapp/assets/javascripts/flickity-master/sandbox/tap-listener.html;T:	nameI")flickity-master/sandbox/tap-listener;T:logical_pathI".flickity-master/sandbox/tap-listener.html;T:content_typeI"text/html;T:sourceI"Ü<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <title>tap listener</title>
+
+  <style>
+  .button1 {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border: 20px solid blue;
+    margin: 20px;
+    margin-top: 200px;
+  }
+  
+  p { margin: 5px 0;}
+  </style>
+
+</head>
+<body>
+
+  <h1>tap listener</h1>
+
+  <div class="button1">Button 1</div>
+
+<script src="../bower_components/ev-emitter/ev-emitter.js"></script>
+<script src="../bower_components/fizzy-ui-utils/utils.js"></script>
+<script src="../bower_components/unipointer/unipointer.js"></script>
+<script src="../bower_components/tap-listener/tap-listener.js"></script>
+
+<script>
+
+  var tapListener = window.tapListener = new TapListener( document.querySelector('.button1') );
+  tapListener.on( 'tap', function() {
+    var p = document.createElement('p');
+    fizzyUIUtils.setText( p, 'TAP' );
+    document.body.appendChild( p );
+  });
+
+</script>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Sfile-digest://app/assets/javascripts/flickity-master/sandbox/tap-listener.html;TTF:charsetI"
+utf-8;F:digest"%®›éììø¹Ÿ§¸…©*ë_@??[Şw=¬ŒRĞwlŸ:lengthiÜ:dependencies_digest"%Ä,oÑ;xaE²÷í§ÏÛÂ0ÌÔL®)ç¯H¯}	ìG:idI"E9523da35b23606a9c7b192c72d9de463a267081a98f5809acb08cf0505d7e881;F:
+mtimel+VX

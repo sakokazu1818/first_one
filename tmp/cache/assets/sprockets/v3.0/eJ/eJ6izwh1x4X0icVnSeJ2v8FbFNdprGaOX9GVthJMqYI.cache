@@ -1,0 +1,36 @@
+{:uriI"ùfile://app/assets/javascripts/flickity-master/sandbox/requirejs/index.html?type=text/html&id=7888cc61a67d8d0bcdc758ff11118df232935d3248852db38d18209f0dba55fb:ET:load_pathI"app/assets/javascripts;T:filenameI"Happ/assets/javascripts/flickity-master/sandbox/requirejs/index.html;T:	nameI",flickity-master/sandbox/requirejs/index;T:logical_pathI"1flickity-master/sandbox/requirejs/index.html;T:content_typeI"text/html;T:sourceI"¶<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+
+  <title>RequireJS</title>
+
+  <link rel="stylesheet" href="../../css/flickity.css" />
+  <link rel="stylesheet" href="../sandbox.css" />
+
+  <script data-main="main" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.9/require.js"></script>
+
+</head>
+<body>
+
+  <h1>single</h1>
+
+  <div id="gallery" class="container">
+    <div class="cell" n1></div>
+    <div class="cell" n2></div>
+    <div class="cell" n3></div>
+    <div class="cell" n4></div>
+    <div class="cell" n5></div>
+    <div class="cell" n6></div>
+    <div class="cell" n7></div>
+  </div>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Vfile-digest://app/assets/javascripts/flickity-master/sandbox/requirejs/index.html;TTF:charsetI"
+utf-8;F:digest"%*ü∞A\NÔ#˜<LÑ≈¢m`|ÇTJÌﬂØc-f{ï,:lengthi¶:dependencies_digest"%¨Äs	ﬂÍæäÁÆ8î>-µÖ
+HvãAæﬁ6=:idI"E7888cc61a67d8d0bcdc758ff11118df232935d3248852db38d18209f0dba55fb;F:
+mtimel+VX

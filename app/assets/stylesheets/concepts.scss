@@ -1,0 +1,39 @@
+// Place all the styles related to the concepts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.content {
+  font-size: 300%;
+  height: 600px;
+  color: #C0C0C0;
+  font-family: "serif";
+}
+
+.content th {
+  background-color: #222222;
+}
+
+.concepts {
+  font-size: 200%;
+  color: #C0C0C0;
+  font-family: "serif";
+}
+
+.concepts .title {
+  text-align: center;
+  background-color: #222222;
+}
+
+.taitle{
+  z-index: 1;
+  color: #C0C0C0;
+  width: 100%;
+  top: 400px;
+  font-size: 600%;
+  font-family: "serif";
+	position:	absolute; /* 絶対位置指定 */
+}
+
+.top .top_icon_2{
+  height: auto;
+  max-width: 50%;
+}

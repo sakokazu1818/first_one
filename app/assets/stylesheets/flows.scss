@@ -1,0 +1,37 @@
+// Place all the styles related to the flows controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.content_1 {
+  text-align: left;
+  font-size: 200%;
+  color: #C0C0C0;
+  font-family: "serif";
+  margin-right : 10%;
+  margin-left : 10%;
+  border: 0.5px #C0C0C0 solid;
+  margin-bottom: 5%;
+}
+
+.content_1 .number{
+  text-align: center;;
+}
+.content_2 {
+  text-align: left;
+  font-size: 200%;
+  color: #C0C0C0;
+  font-family: "serif";
+  margin-right : 10%;
+  margin-left : 10%;
+  border: 0.5px #C0C0C0 solid;
+  margin-bottom: 5%;
+}
+
+.content_2 .number{
+  text-align: center;;
+}
+
+#top_icon_5{
+  height: auto;
+  max-width: 100%;
+}

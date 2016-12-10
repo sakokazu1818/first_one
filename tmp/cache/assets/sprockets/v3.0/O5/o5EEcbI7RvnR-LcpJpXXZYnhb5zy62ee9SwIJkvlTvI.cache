@@ -1,0 +1,51 @@
+{:uriI"’file://app/assets/javascripts/flickity-master/bower.json?type=application/json&id=ec670fdc51a2c7bda271ff25474dd6dce80377eaaf667b583e429d7ca3504533:ET:load_pathI"app/assets/javascripts;T:filenameI"6app/assets/javascripts/flickity-master/bower.json;T:	nameI"flickity-master/bower;T:logical_pathI"flickity-master/bower.json;T:content_typeI"application/json;T:sourceI"T{
+  "name": "flickity",
+  "description": "Touch, responsive, flickable carousels",
+  "main": [
+    "js/index.js",
+    "css/flickity.css"
+  ],
+  "dependencies": {
+    "desandro-matches-selector": "^2.0.0",
+    "ev-emitter": "^1.0.2",
+    "fizzy-ui-utils": "^2.0.0",
+    "get-size": "^2.0.0",
+    "tap-listener": "^2.0.0",
+    "unidragger": "^2.1.0"
+  },
+  "devDependencies": {
+    "flickity-imagesloaded": "^2.0.0",
+    "flickity-as-nav-for": "^2.0.0",
+    "jquery-bridget": "^2.0.0",
+    "qunit": "^2.0.0"
+  },
+  "keywords": [
+    "gallery",
+    "carousel",
+    "touch"
+  ],
+  "homepage": "http://flickity.metafizzy.co",
+  "authors": [
+    "Metafizzy"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "sandbox",
+    "package.json",
+    "gulpfile.js",
+    "notes.md"
+  ]
+}
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"@processors:type=application/json&file_type=application/json;TTI"Dfile-digest://app/assets/javascripts/flickity-master/bower.json;TTF:charsetI"
+utf-8;F:digest"%
+#ßÿ5Ò
+î>Wã[[Û¨bÒ¨Çp¥Â§øÜÜO:lengthiT:dependencies_digest"%çsk`¨
+‘f¿Ë;Ìö5< EChó5cÄ	Ö:idI"Eec670fdc51a2c7bda271ff25474dd6dce80377eaaf667b583e429d7ca3504533;F:
+mtimel+VX

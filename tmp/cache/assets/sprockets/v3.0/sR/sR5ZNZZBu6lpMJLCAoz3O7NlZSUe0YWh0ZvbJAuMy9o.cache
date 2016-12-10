@@ -1,0 +1,77 @@
+{:uriI"õfile://app/assets/javascripts/flickity-master/sandbox/right-to-left.html?type=text/html&id=396a64e61053ac1441f1f3fc23c8f0acc12c94a5be30311acf84ccb042584ad5:ET:load_pathI"app/assets/javascripts;T:filenameI"Fapp/assets/javascripts/flickity-master/sandbox/right-to-left.html;T:	nameI"*flickity-master/sandbox/right-to-left;T:logical_pathI"/flickity-master/sandbox/right-to-left.html;T:content_typeI"text/html;T:sourceI"<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>right to left</title>
+
+  <link rel="stylesheet" href="../css/flickity.css" />
+  <link rel="stylesheet" href="sandbox.css" />
+
+  <style>
+  .variable-width .cell { margin: 0 0 0 4%; }
+  </style>
+
+</head>
+<body>
+
+  <h1>right to left</h1>
+
+  <div id="gallery1" class="container variable-width">
+    <div class="cell n1"><b>1</b></div>
+    <div class="cell n2 w2"><b>2</b></div>
+    <div class="cell n3 w3"><b>3</b></div>
+    <div class="cell n4"><b>4</b></div>
+    <div class="cell n5 w2"><b>5</b></div>
+    <div class="cell n6"><b>6</b></div>
+  </div>
+
+  <div id="gallery2" class="container variable-width">
+    <div class="cell n1"><b>1</b></div>
+    <div class="cell n2 w2"><b>2</b></div>
+    <div class="cell n3 w3"><b>3</b></div>
+    <div class="cell n4"><b>4</b></div>
+    <div class="cell n5 w2"><b>5</b></div>
+    <div class="cell n6"><b>6</b></div>
+  </div>
+
+<script src="../bower_components/get-size/get-size.js"></script>
+<script src="../bower_components/desandro-matches-selector/matches-selector.js"></script>
+<script src="../bower_components/ev-emitter/ev-emitter.js"></script>
+<script src="../bower_components/unipointer/unipointer.js"></script>
+<script src="../bower_components/unidragger/unidragger.js"></script>
+<script src="../bower_components/tap-listener/tap-listener.js"></script>
+<script src="../bower_components/fizzy-ui-utils/utils.js"></script>
+
+<script src="../js/cell.js"></script>
+<script src="../js/slide.js"></script>
+<script src="../js/animate.js"></script>
+<script src="../js/flickity.js"></script>
+<script src="../js/drag.js"></script>
+<script src="../js/prev-next-button.js"></script>
+<script src="../js/page-dots.js"></script>
+<script src="../js/player.js"></script>
+<script src="../js/add-remove-cell.js"></script>
+
+<script>
+window.onload = function() {
+
+  var flky = window.flky = new Flickity( '#gallery1', {
+    wrapAround: true,
+    rightToLeft: true
+  });
+
+  var flky2 = new Flickity( '#gallery2', {
+    rightToLeft: true
+  });
+
+};
+</script>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"2processors:type=text/html&file_type=text/html;TTI"Tfile-digest://app/assets/javascripts/flickity-master/sandbox/right-to-left.html;TTF:charsetI"
+utf-8;F:digest"%L§rá€ãÆ€W]l“lœÚ^†Ω}Q†¢udVÅÕbç#:lengthi:dependencies_digest"%˛ }˙^j€Ê'¥ìÃ€Í¬pe2}4o≈”5S:idI"E396a64e61053ac1441f1f3fc23c8f0acc12c94a5be30311acf84ccb042584ad5;F:
+mtimel+VX
