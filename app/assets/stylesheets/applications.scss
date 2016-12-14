@@ -231,19 +231,23 @@ ul.child li a{
   text-decoration: none;
   border:0;
   color: #C0C0C0;
-  font-size: 400%;
+  font-size: 350%;
   width: 750px;
 }
 
 #slide {
-width:640px;
-height:300px;
-margin:0 auto;
-position:relative;
+  width:640px;
+  height:300px;
+  margin:0 auto;
+  position:relative;
 }
 
 #slide img {
-position:absolute;
-left:0;
-top:0;
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.space {
+  height: 10px;
 }
