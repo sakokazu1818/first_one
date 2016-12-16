@@ -8,13 +8,13 @@ class ApplicationsController < ApplicationController
     1.upto(180) do |i|
       @days << (Date.parse(today.to_s) + i.day).to_s
     end
-    @age = [*(18..60)]
-    @height = [*(130..190)]
-    @weight = [*(30..80)]
-    @cup = [*('A'..'L')]
+    @age = [*(18..40)]
+    @height = [*(150..180)]
+    @weight = [*(30..60)]
+    @cup = [*('A'..'I')]
     @inquiry = Application.new
-    @bust = [*('50'..'150')]
-    @waist = [*('30'..'100')]
+    @bust = [*('60'..'100')]
+    @waist = [*('40'..'70')]
     @hip = @bust
     @time = [*('0'..'24')]
     render action: 'index'
