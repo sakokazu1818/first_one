@@ -46,8 +46,8 @@ Rails.application.configure do
     :port => '587',
     domain:         'heroku.com',
     :authentication => 'plain',
-    :user_name => 'testksako@gmail.com',
-    :password => 'twjdtwjd',
+    :user_name => 'firstclassgroup3@gmail.com',
+    :password => 'virtugroup',
     enable_starttls_auto: true
   }
 end
