@@ -42,12 +42,12 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
     :enable_starttls_auto => true,
-    :address => 'smtp.gmail.com',
+    :address => 'smtp.icloud.com',
     :port => '587',
     domain:         'heroku.com',
     :authentication => 'plain',
-    :user_name => 'testksako@gmail.com',
-    :password => 'twjdtwjd',
+    :user_name => 'kazukun8953@icloud.com',
+    :password => 'Twjd8953',
     enable_starttls_auto: true
   }
 end
