@@ -1,10 +1,9 @@
 class RequirementsController < ApplicationController
-  before_action :set_requirement, only: [:show, :edit, :update, :destroy]
 
   # GET /requirements
   # GET /requirements.json
   def index
-    @requirements = Requirement.all
+    # @requirements = Requirement.all
   end
 
   # GET /requirements/1
