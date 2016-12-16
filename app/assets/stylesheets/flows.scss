@@ -7,15 +7,20 @@
   font-size: 200%;
   color: #C0C0C0;
   font-family: "serif";
-  margin-right : 10%;
-  margin-left : 10%;
+  margin-right : 5%;
+  margin-left : 5%;
+  // border-collapse: collapse;
   // border: 0.5px #C0C0C0 solid;
-  margin-bottom: 5%;
+}
+
+.sampleRow {
+	border: 1px solid gray;
 }
 
 .content_1 .number{
-  text-align: center;;
+  text-align: center;
 }
+
 .content_2 {
   text-align: left;
   font-size: 200%;
@@ -23,12 +28,11 @@
   font-family: "serif";
   margin-right : 10%;
   margin-left : 10%;
-  // border: 0.5px #C0C0C0 solid;
-  margin-bottom: 5%;
+  border: 0.5px #C0C0C0 solid;
 }
 
 .content_2 .number{
-  text-align: center;;
+  text-align: center;
 }
 
 #top_icon_5{
